@@ -1,0 +1,65 @@
+#ni-chat{
+      background:none;
+      background-color:#ffffff;
+      border: 5px solid #E7E7E7;
+      border-radius:0;
+      bottom:50px;
+      max-width:250px;
+       position:fixed;
+       right:-250px;
+       padding:15px;
+      -moz-border-radius:0;
+      -webkit-border-radius:0;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.18);
+      -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.18);
+      -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.18);
+      z-index: 1000;
+}
+    
+#ni-chat .close{
+     color: #ccc;
+     cursor:pointer;
+     fill: #ccc !important;
+     opacity: 1;
+     right: 15px;
+     position: absolute;
+     top: 15px;
+}
+
+#ni-chat .ni-btn.ni-btn-primary:visited, #ni-chat .ni-btn.ni-btn-primary:focus {
+     color:#fff;
+     text-decoration: none !important;
+}
+
+#ni-chat .ni-btn.ni-btn-chat {
+    color: #fff;
+    padding:5px 15px 13px;
+    width: 45px;
+    display: inline-block;
+}
+
+#ni-chat .ni-chat-btn {
+     background-color: #D73A0F;
+}
+
+#ni-chat .ni-btn.ni-btn-primary {
+     margin-left: -3px;
+     padding: 13px 17px;
+}
+
+#ni-chat .ni-chat-btn.vert {
+    transform: rotate(90deg);
+    position: fixed;
+    bottom: 117px;
+    text-decoration: none !important;
+}
+
+#ni-chat .chat-icon {
+    color: #FFF;
+    cursor: pointer;
+    fill: #FFF !important;
+    opacity: 1;
+    right: 4px;
+    position: relative;
+    top: 6px;
+}
